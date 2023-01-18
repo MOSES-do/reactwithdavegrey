@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": false,
+      "item": "One half pound bag of Cocoa Covered Almonds unsalted"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "item": "Pizza"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "item": "Bread"
+    }
+  ]
+}

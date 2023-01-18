@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+
+html {
+  font-size: 22px;
+}
+
+.App {
+  width: 100%;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  position: fixed;
+  top: 0;
+}
+
+
+.comment,
+.user,
+.post {
+  display: flex;
+  flex-basis: 100%;
+  flex-shrink: 1;
+  background-color: #999;
+  height: 48px;
+  max-height: 48px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+}
+
+.comment:focus-within,
+.user:focus,
+.post:focus {
+  background-color: #222;
+}
+
+.header1,
+.header2,
+.header3 {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* li {
+  list-style: dot;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-top: 3rem;
+} */
+
+.table-container {
+  margin: 3rem 0 0 1rem;
+}
