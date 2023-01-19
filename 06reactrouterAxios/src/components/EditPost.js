@@ -13,6 +13,7 @@ const EditPost = ({ posts, handleEdit, editPostBody, setEditPostBody, editPostTi
             setEditPostBody(post.body);
         }
     }, [post, setEditPostTitle, setEditPostBody])
+
     return (
         <main className="NewPost">
             {editPostTitle &&

@@ -17,7 +17,7 @@ import api from './api/posts';
 
 
 function App() {
-  const [posts, setPosts] = useState([])
+  const [posts, setPosts] = useState([]);
 
   const [search, setSearch] = useState('');
 
@@ -48,7 +48,6 @@ function App() {
   //Delete existing post
   const navigate = useNavigate();
   const handleDelete = async (id) => {
-
     try {
       await api.delete(`posts/${id}`);
       const postsList = posts.filter(post => post.id !== id);
