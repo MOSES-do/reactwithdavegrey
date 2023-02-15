@@ -11,6 +11,8 @@
 # How to install axios
 - npm i axios -S
 
-# How to install reac-icons
+# How to install react-icons
 
 - npm i react-icons
+
+-npm i easy-peasy
